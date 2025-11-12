@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My New website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top navigation -->
+  <header class="topbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand" aria-label="Site logo">
+        <div class="logo-placeholder">NETFLIX</div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Series</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My List</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="lang-btn" aria-label="Language">EN</button>
+        <a class="signin-btn" href="#">Sign In</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero-->
+  <section class="hero">
+    <div class="hero-bg">
+      <!-- Background image -->
+    </div>
+
+    <div class="container hero-content">
+      <h1 class="hero-title">Top shows. Endless entertainment.</h1>
+      <p class="hero-desc">
+        Watch anywhere. Cancel anytime. Enjoy thousands of movies and TV shows.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#" class="btn btn-play" aria-label="Play">► Play</a>
+        <a href="#" class="btn btn-list" aria-label="Add to my list">＋ My List</a>
+      </div>
+    </div>
+
+    <div class="hero-fade"></div>
+  </section>
+
+  <!-- Rows (horizontal scroll lists using CSS overflow) -->
+  <main class="container main">
+    <!-- Repeatable row pattern -->
+    <section class="row">
+      <h2 class="row-title">Trending Now</h2>
+      <div class="row-track" tabindex="0" aria-label="Trending Now">
+        <!-- Poster cards:-->
+        <article class="card" style="background-image: url(images/1.jfif);">
+          <span class="card-badge">TV-MA</span>
+        </article>
+        <article class="card" style="background-image: url(images/2.jfif);"></article>
+        <article class="card" style="background-image: url(images/3.jfif);"></article>
+        <article class="card" style="background-image: url(images/4.jfif);"></article>
+        <article class="card" style="background-image: url(images/5.jfif);"></article>
+        <article class="card" style="background-image: url(images/6.jfif);"></article>
+        <article class="card" style="background-image: url(images/7.jfif);"></article>
+      </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row-title">Because you watched Action</h2>
+      <div class="row-track" tabindex="0" aria-label="Because you watched Action">
+        <article class="card" style="background-image: url(images/8.jfif);"></article>
+        <article class="card" style="background-image: url(images/9.jfif);"></article>
+        <article class="card" style="background-image: url(images/10.jfif);"></article>
+        <article class="card" style="background-image: url(images/11.jfif);"></article>
+        <article class="card" style="background-image: url(images/12.jfif);"></article>
+      </div>
+    </section>
+
+    <section class="row">
+      <h2 class="row-title">New Releases</h2>
+      <div class="row-track" tabindex="0" aria-label="New Releases">
+        <article class="card" style="background-image: url(images/13.jfif);"></article>
+        <article class="card" style="background-image: url(images/14.jfif);"></article>
+        <article class="card" style="background-image: url(images/15.jfif);"></article>
+        <article class="card" style="background-image: url(images/16.jfif);"></article>
+        <article class="card" style="background-image: url(images/17.jfif);"></article>
+      </div>
+    </section>
+  </main>
+
+ <footer class="footer">
+  <div class="container footer-inner">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo-placeholder">NETFLIX</div>
+        <p class="footer-tagline">Unlimited movies, TV shows, and more.</p>
+      </div>
+
+      <div class="footer-lang">
+        <label for="lang-select">Language:</label>
+        <select id="lang-select" name="language">
+          <option>English</option>
+          <option>Pashto</option>
+          <option>Parsi</option>
+          <option>Arabic</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Investors</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Contact</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div>
+        <h4>Community</h4>
+        <a href="#">Blog</a>
+        <a href="#">Forums</a>
+        <a href="#">Developers</a>
+        <a href="#">Affiliate Program</a>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <a href="#">FaceBook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Threads</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Developed By Mohammad Yousaf Ahmadzai.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
